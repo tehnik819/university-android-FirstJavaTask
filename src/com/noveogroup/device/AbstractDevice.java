@@ -7,4 +7,14 @@ public abstract class AbstractDevice implements Device {
     AbstractDevice(int p) {
         this.price = p;
     }
+
+    @Override
+    public int compareTo(Device o) {
+        return o.getPrice();
+    }
+
+    @Override
+    public int getPrice() {
+        return price;
+    }
 }

@@ -31,7 +31,7 @@ public class Main {
         /*
         System.out.println("QuickSort");
         Quicksort q = new Quicksort();
-        q.sort(phones,false);
+        q.sort(phones,true);
         */
         System.out.println("Sorted array");
         show(phones);
